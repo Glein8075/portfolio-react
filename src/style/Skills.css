@@ -1,0 +1,102 @@
+table{
+    border-spacing: 0;
+    transition: 0.5s;
+    animation:  opacity 1.5s;
+}
+
+tr{
+    height: 20px;
+
+}
+
+td{
+    min-width: 100px;
+    border: 1px solid #000000;
+}
+
+.skills{
+    width: 80em;
+    height: 60%;
+    font-size: small;
+}
+
+.explanation{
+    width: 50em;
+    text-align: justify;
+}
+.explanation h1{
+    color: #1c1c42;
+}
+
+.board{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.legend{
+    height: 20%;
+    font-size: small; 
+    margin-bottom: 1%;   
+}
+
+.years{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1rem 0 ;
+}
+
+.years button{
+    border-radius: 10px;
+    background: none;
+    margin: 0 1rem;
+    padding: 0.5rem;
+    cursor: pointer;
+    font-size: large;
+    font-weight: bold;
+    transition: 0.5s;
+}
+
+.years button:hover{
+    color: white;
+    background-color:#1c1c42;
+}
+
+
+/*colors of the table box and the border of "special" box */
+.absolue{
+    background-color: #004b28;
+}
+
+.acquis{
+    background-color: #00a92e;
+}
+
+.en-cours{
+    background-color: #eceb00;
+}
+
+.base{
+    background-color: #eca600;
+}
+
+.separation{
+    background-color: #1c1c42;
+}
+
+.empty{
+    background-color: #696969;
+}
+
+.same-left{
+    border-left: 0;
+}
+.same-right{
+    border-right: 0;
+}
+
+.same-middle{
+    border-left: 0;
+    border-right: 0;
+}

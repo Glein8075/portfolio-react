@@ -1,0 +1,58 @@
+.contentHome{
+    height: 50%;
+}
+
+.bg-image{
+    height: 50em;
+    width: 100%;
+    margin-top: 3em;
+    background-image: url("../assets/bg-home.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    filter: blur(4px);
+    -webkit-filter: blur(4px);
+}
+
+.presentation{
+    background-color: #000000;
+    background-color: #00000004;
+    text-align: center;
+    text-shadow: 3px 3px #000000;
+    color: #FFFFFF;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    z-index: 1;
+    width: 80%;
+    padding: 1%;
+    text-align: center;
+}
+
+.subtitle{
+    font-weight: bold;
+    font-size: xx-large;
+}
+
+.main{
+    font-size: xx-large;
+}
+
+.desc{
+    padding-bottom: 1%;
+}
+
+#buttonHome{
+    color: #FFFFFF;
+    border-radius: 15px;
+    border: 2px solid #FFFFFF;
+    padding: 1%;
+    transition: 0.5s;
+    text-shadow: none;
+}
+
+#buttonHome:hover{
+    background-color: #FFFFFF;
+    color: #000000;
+}
