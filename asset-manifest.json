@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.081c37bf.css",
+    "main.js": "/portfolio/static/js/main.8c5a5622.js",
+    "static/js/787.1ed0c42c.chunk.js": "/portfolio/static/js/787.1ed0c42c.chunk.js",
+    "static/media/CocktailC.png": "/portfolio/static/media/CocktailC.74b63b774e69d10ef34b.png",
+    "static/media/IUT_website.png": "/portfolio/static/media/IUT_website.aab39a5a91df30f800c3.png",
+    "static/media/bg-home.jpg": "/portfolio/static/media/bg-home.bb15dfa63f9eb39c730c.jpg",
+    "static/media/photo_CV.jpg": "/portfolio/static/media/photo_CV.2c5951a683fa8fd189df.jpg",
+    "static/media/CV_Valentin_SEGALLA.pdf": "/portfolio/static/media/CV_Valentin_SEGALLA.71e913f41d76e7293788.pdf",
+    "static/media/mussto.png": "/portfolio/static/media/mussto.522f8d073b0f5cfd1467.png",
+    "static/media/snake.png": "/portfolio/static/media/snake.2a2b7f7e4d39ebb4970c.png",
+    "static/media/github_logo.png": "/portfolio/static/media/github_logo.a027395195e67866f7cd.png",
+    "index.html": "/portfolio/index.html",
+    "main.081c37bf.css.map": "/portfolio/static/css/main.081c37bf.css.map",
+    "main.8c5a5622.js.map": "/portfolio/static/js/main.8c5a5622.js.map",
+    "787.1ed0c42c.chunk.js.map": "/portfolio/static/js/787.1ed0c42c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.081c37bf.css",
+    "static/js/main.8c5a5622.js"
+  ]
+}
