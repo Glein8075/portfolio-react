@@ -41,7 +41,7 @@ function Project(){
             </div>
             <p>Retrouvez l'intégralité de ces projets ainsi que d'autres sur  
                 <a href="https://github.com/Glein8075">GitHub 
-                    <img id="gitLogo" src={require("../../assets/github_logo.png")}/>
+                    <img id="gitLogo" src={require("../../assets/github_logo.png")} alt={"GitHub"}/>
                 </a>
             </p>
         </section>
