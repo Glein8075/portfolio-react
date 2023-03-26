@@ -11,7 +11,7 @@ function NavBar(){
                 <span>A propos de moi</span>
                 <div className="dropdown-about">
                     <Navlink name="Bio" href="#about"/>
-                    <Navlink name="Expérience" href="#timeline"/>
+                    <Navlink name="Expériences" href="#timeline"/>
                 </div>
             </div>
         </div>

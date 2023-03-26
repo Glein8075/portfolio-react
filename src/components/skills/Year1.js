@@ -22,11 +22,11 @@ function Year1(){
                     </tr>
                     <tr>
                         <td>AC 1 Implémenter des conceptions simples</td>
-                        <td className="en-cours">J'ai eu pas mal de difficulté pour implémenter les fonctionnalités nécessaires pour mener à bien le projet. Finalement, je n'ai pas pour réaliser toutes les fonctionnalités demandées.</td>
+                        <td className="en-cours">J'ai eu pas mal de difficultés pour implémenter les fonctionnalités nécessaires pour mener à bien le projet. Finalement, je n'ai pas pour réaliser toutes les fonctionnalités demandées.</td>
                         <td className="acquis">Par rapport au premier projet, le langage utilisé pour ce projet était beaucoup plus accessible et facile à utiliser. J'ai donc pu réaliser tout ce qui était demandé.</td>
                     </tr>
                     <tr>
-                        <td>AC 2 Elaborer des conceptions simples</td>
+                        <td>AC 2 Élaborer des conceptions simples</td>
                         <td className="acquis"></td>
                         <td className="acquis"></td>
                     </tr>
@@ -68,7 +68,7 @@ function Year1(){
                     <tr>
                         <td>AC 3 Formaliser et mettre en œuvre des outils mathématiques pour l'informatiques </td>
                         <td></td>
-                        <td className="en-cours">Cette partie étant un bonus pour le projet, je n'ai pas réussi à implémenter l'algorithme de Dijkstra vu en cours de maths</td>
+                        <td className="en-cours">Cette partie étant un bonus pour le projet, je n'ai pas réussi à implémenter l'algorithme de Dijkstra</td>
                     </tr>
                     <tr>
                         <td className="separation same-middle"></td>
@@ -182,7 +182,7 @@ function Year1(){
                     </tr>
                     <tr>
                         <td>AC 1 Appréhender l'écosystème numérique</td>
-                        <td className="en-cours">je n'ai pas vraiment compris le lien entre faire un compte rendu d'une recherche bibliographique et le B.U.T. Informatique en général</td>
+                        <td className="en-cours">Je n'ai pas vraiment compris le lien entre faire un compte-rendu d'une recherche bibliographique et le B.U.T. Informatique en général</td>
                         <td></td>
                     </tr>
                     <tr>
@@ -198,7 +198,7 @@ function Year1(){
                     <tr>
                         <td>AC 4 Acquérir les compétences interpersonnelles pour travailler en équipe</td>
                         <td></td>
-                        <td className="en-cours">comme ceci était en première année, je pense que je n'ai pas encore découvert toute mes compétences personnelles pouvant être utilisé lors d'un projet</td>
+                        <td className="en-cours">Comme ceci était en première année, je pense que je n'ai pas encore découvert toute mes compétences personnelles pouvant être utilisé lors d'un projet</td>
                     </tr>
                     <tr>
                         <td className="separation same-middle"></td>
@@ -209,7 +209,7 @@ function Year1(){
                 </table>
                 <div className="explanation">
                     <h2>Prise de recule</h2>
-                    <p>Cette année était particulièrement compliqué par rapport au différents projet 
+                    <p>Cette année était particulièrement compliqué par rapport aux différents projets 
                         à réaliser. Malgré le fait que je n'ai pas pu appliquer ma capacité à travailler
                         en groupe du fait que, lors de certain projet, les membres de mon groupe n'ont pas 
                         fait d'effort dans leur travail, j'ai quand même pu mettre en pratique

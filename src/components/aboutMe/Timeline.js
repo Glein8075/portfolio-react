@@ -6,16 +6,16 @@ function Timeline(){
             <div className="container left">
                 <div className="timeline-content">
                     <h2>2021-2024</h2>
-                    <p className="main">Etude en Bachelor Universitaire de Technologie (B.U.T) Informatique
+                    <p className="main">Étude en Bachelor Universitaire de Technologie (B.U.T.) Informatique
                         Développement d'applications (en 3 ans)</p>
-                    <p>IUT Lyon1 La Doua Université Claude Bernard</p>
+                    <p>IUT Lyon1 La Doua, Université Claude Bernard</p>
                 </div>
             </div>
             <div className="container right">
                 <div className="timeline-content">
                     <h2>2021</h2>
                     <p className="main">Obtention du Baccalauréat option Mathématiques et Numérique et Sciences Informatiques</p>
-                    <p>à l'IUT Lycée Philibert Delorme</p>
+                    <p>au Lycée Philibert Delorme</p>
                 </div>
             </div>
             <div className="container left">
@@ -28,7 +28,7 @@ function Timeline(){
             <div className="container right">
                 <div className="timeline-content">
                     <h2>Novembre 2020</h2>
-                    <p className="main">Participation au  concours de programmation BattleDev</p>
+                    <p className="main">Participation au concours de programmation BattleDev</p>
                 </div>
             </div>
             <div className="container left">

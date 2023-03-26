@@ -39,7 +39,7 @@ function Project(){
                     <button onClick={() => dispatch({ type: "PREV" })}>›</button>
                 </div>
             </div>
-            <p>Retrouver l'integralité de ces projets ainsi que d'autres sur  
+            <p>Retrouvez l'intégralité de ces projets ainsi que d'autres sur  
                 <a href="https://github.com/Glein8075">GitHub 
                     <img id="gitLogo" src={require("../../assets/github_logo.png")}/>
                 </a>

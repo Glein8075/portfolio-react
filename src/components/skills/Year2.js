@@ -19,7 +19,7 @@ function Year2(){
                         <td className="same-left empty"></td>
                     </tr>
                     <tr>
-                        <td>AC 1 Elabotrer et implémenter les spécifications fonctionnelles et non fonctionnelles à partir des exigences</td>
+                        <td>AC 1 Élabotrer et implémenter les spécifications fonctionnelles et non fonctionnelles à partir des exigences</td>
                         <td className="acquis"></td>
                         <td></td>
                     </tr>
@@ -59,12 +59,12 @@ function Year2(){
                         <td></td>
                     </tr>
                     <tr>
-                        <td>AC 3 comprendre les enjeux et les moyens de sécurisation des données et du code</td>
+                        <td>AC 3 Comprendre les enjeux et les moyens de sécurisation des données et du code</td>
                         <td className="en-cours"></td>
                         <td></td>
                     </tr>
                     <tr>
-                        <td>AC 4 Evaluer l'impact environnemental des solutions proposées</td>
+                        <td>AC 4 Évaluer l'impact environnemental des solutions proposées</td>
                         <td className="en-cours"></td>
                         <td></td>
                     </tr>
