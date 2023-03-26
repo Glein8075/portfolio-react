@@ -9,7 +9,6 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 30em;
 }
 
 .slides {
@@ -28,7 +27,6 @@
     position: absolute;
     font-size: 5rem;
     width: 5rem;
-    height: 5rem;
     top: 30%;
     transition: opacity 0.3s;
     opacity: 0.7;
@@ -49,6 +47,7 @@
 
 .slideContent {
     width: 35em;
+    height: 100%;
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
@@ -58,10 +57,10 @@
     align-content: center;
     transform-style: preserve-3d;
     transform: perspective(1000px) translateX(calc(100% * var(--offset))) rotateY(calc(-45deg * var(--dir)));
-    border-radius: 10px;
 }
 
 .slideContentInner {
+    padding: 1em;
     transform-style: preserve-3d;
     transform: translateZ(2rem);
     transition: opacity 0.3s linear;
@@ -81,45 +80,67 @@
 }
 .slideContentInner .slideDescription {
     margin: 0;
+    text-shadow: none;
+    padding: 1em 1em 0 1em;
     font-size: 0.8rem;
     letter-spacing: 0.2ch;
 }
 
-.slideBackground {
-    position: fixed;
-    top: 0;
-    left: -10%;
-    right: -10%;
-    bottom: 0;
-    background-size: cover;
-    background-position: center center;
-    z-index: -1;
-    opacity: 0;
-    transition: opacity 0.3s linear, transform 0.3s ease-in-out;
-    pointer-events: none;
-    transform: translateX(calc(10% * var(--dir)));
-}
-
 .slide[data-active] {
     display: block;
+    border-radius: 10px;
     z-index: 2;
 }
-.slide[data-active] .slideBackground {
-    height: 30em;
-    width: 50em;
-    opacity: 0.2;
-    transform: none;
-}
+
 .slide[data-active] .slideContentInner {
     opacity: 1;
 }
 .slide[data-active] .slideContent {
+    
+    box-shadow: 10px 5px 5px #00000055;
+    border-radius: 10px;
     opacity: 1;
 }
 .slide[data-active] .slideContent:hover {
     transition: none;
 }
 
+.slide[data-active] #picture {
+   border-radius: 0 ;
+}
+
 #picture{
+    border-radius: 10px ;
     width: 100%;
+    max-height: 20em;
+}
+
+.projectcontent p{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.projectcontent a{
+    padding: 0.25rem;
+    width: 5em;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 10px;
+    color: #ffffff;
+    background-color: #001d4b;
+    font-size: larger;
+    margin: 0.5rem;
+    transition: 0.5s;
+}
+
+.projectcontent a:hover{
+    background-color: #1e0170;
+
+}
+
+#gitLogo{
+    height: 1em;
 }

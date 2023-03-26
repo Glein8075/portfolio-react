@@ -1,7 +1,7 @@
 import "../../style/Project.css"
 import { useReducer } from "react"
 import Slide from "./Carousel"
-import { projectList } from "../../projectList"
+import { projectList } from "../../utils/projectList"
 
 const initialState = {
     slideIndex: 0
@@ -39,7 +39,11 @@ function Project(){
                     <button onClick={() => dispatch({ type: "PREV" })}>›</button>
                 </div>
             </div>
-            <p>Retrouver l'integralité de ces projets ainsi que d'autres sur mon <a href="https://github.com/Glein8075">GitHub</a></p>
+            <p>Retrouver l'integralité de ces projets ainsi que d'autres sur  
+                <a href="https://github.com/Glein8075">GitHub 
+                    <img id="gitLogo" src={require("../../assets/github_logo.png")}/>
+                </a>
+            </p>
         </section>
     )
 }

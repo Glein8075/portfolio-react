@@ -33,7 +33,7 @@
 
 .biography{
     border: 1px solid #A8A7A7FF;
-    width: 20em;
+    width: 17em;
 }
 
 .picture{
@@ -42,19 +42,28 @@
 }
 
 .picture img{
-    padding-top: 10px;
-    width: 10em;
+    padding-top: 5px;
+    width: 45%;
 }
 
-li{
+.biography ul {
+    margin: 0;
+}
+
+.biography li{
     list-style: none;
     font-size: 16px;
-    padding: 0.5%;
+    padding: 0.15em;
     border-bottom: 1px solid #A8A7A7FF;
 }
 
-li:last-child{
+.biography li *{
+    margin: 0.5em;
+}
+
+.biography li:last-child{
     border-bottom: none;
+    padding-bottom: 1em;
 }
 
 .entitled{
