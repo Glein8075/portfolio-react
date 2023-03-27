@@ -15,15 +15,10 @@
 }
 
 .presentation{
-    background-color: #000000;
-    background-color: #00000004;
     text-align: center;
     text-shadow: 3px 3px #000000;
     color: #FFFFFF;
     position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%,-50%);
     z-index: 1;
     width: 80%;
     padding: 1%;
